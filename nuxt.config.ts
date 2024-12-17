@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '~/assets/scss/main.scss'
   ],
   app: {
-    baseURL: process.env.NODE_ENV === 'development' ? '' : '/nuxt3/'
+    baseURL: process.env.NODE_ENV === 'development' ? '' : '/nuxt3-app/'
   },
   srcDir: 'src/',
   compatibilityDate: '2024-11-01',
