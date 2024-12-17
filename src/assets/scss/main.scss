@@ -1,0 +1,16 @@
+@import url('./_reset.scss');
+@import url('./_fonts.scss');
+@import url('./_container.scss');
+
+body {
+  font-family: 'SfProDisplay', 'sans-serif';
+}
+
+#__nuxt {
+  display: flex;
+  min-height: 100dvh;
+}
+
+main {
+  flex-grow: 1;
+}
